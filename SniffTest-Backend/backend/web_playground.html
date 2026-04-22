@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIAR Classifier Demo</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: #f4f6fb;
+            color: #111827;
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 20px 56px;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 28px;
+        }
+
+        p {
+            margin: 0 0 20px;
+            line-height: 1.5;
+            color: #4b5563;
+        }
+
+        .panel {
+            background: #ffffff;
+            border: 1px solid #dbe2ea;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            resize: vertical;
+            box-sizing: border-box;
+            padding: 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font: inherit;
+            line-height: 1.5;
+            background: #fff;
+            color: #111827;
+        }
+
+        .row {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            border: 0;
+            border-radius: 6px;
+            padding: 10px 16px;
+            font: inherit;
+            font-weight: 600;
+            background: #111827;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: default;
+        }
+
+        .status {
+            font-size: 14px;
+            color: #4b5563;
+        }
+
+        .result {
+            margin-top: 20px;
+        }
+
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .stat {
+            background: #ffffff;
+            border: 1px solid #dbe2ea;
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .label {
+            font-size: 12px;
+            color: #6b7280;
+            text-transform: uppercase;
+        }
+
+        .value {
+            margin-top: 6px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        pre {
+            margin: 0;
+            padding: 16px;
+            border-radius: 8px;
+            background: #0f172a;
+            color: #e2e8f0;
+            overflow: auto;
+            line-height: 1.45;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>LIAR Multiclass Classifier</h1>
+        <p>Enter one statement and run local prediction through the same REST API used by the SwiftUI app.</p>
+
+        <section class="panel">
+            <textarea id="statement">Why criticize this decision when the previous administration caused worse problems?</textarea>
+            <div class="row">
+                <button id="predictButton">Classify</button>
+                <span class="status" id="status">Ready</span>
+            </div>
+        </section>
+
+        <section class="result" id="result" hidden>
+            <div class="summary">
+                <div class="stat">
+                    <div class="label">Predicted Category</div>
+                    <div class="value" id="predictedCategory">-</div>
+                </div>
+                <div class="stat">
+                    <div class="label">Confidence</div>
+                    <div class="value" id="confidence">-</div>
+                </div>
+            </div>
+            <pre id="rawJson"></pre>
+        </section>
+    </main>
+
+    <script>
+        const statementInput = document.getElementById("statement");
+        const predictButton = document.getElementById("predictButton");
+        const statusEl = document.getElementById("status");
+        const resultEl = document.getElementById("result");
+        const predictedCategoryEl = document.getElementById("predictedCategory");
+        const confidenceEl = document.getElementById("confidence");
+        const rawJsonEl = document.getElementById("rawJson");
+
+        async function classify() {
+            const text = statementInput.value.trim();
+            if (!text) {
+                statusEl.textContent = "Enter a statement first.";
+                return;
+            }
+
+            predictButton.disabled = true;
+            statusEl.textContent = "Classifying...";
+
+            try {
+                const response = await fetch("/predict", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ text })
+                });
+
+                const payload = await response.json();
+                if (!response.ok) {
+                    throw new Error(payload.error || "Prediction failed");
+                }
+
+                const prediction = payload.predictions[0];
+                predictedCategoryEl.textContent = prediction.predicted_category;
+                confidenceEl.textContent = `${(prediction.confidence * 100).toFixed(1)}%`;
+                rawJsonEl.textContent = JSON.stringify(payload, null, 2);
+                resultEl.hidden = false;
+                statusEl.textContent = "Done";
+            } catch (error) {
+                resultEl.hidden = true;
+                statusEl.textContent = error.message;
+            } finally {
+                predictButton.disabled = false;
+            }
+        }
+
+        predictButton.addEventListener("click", classify);
+    </script>
+</body>
+</html>

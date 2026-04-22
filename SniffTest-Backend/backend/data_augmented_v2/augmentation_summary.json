@@ -1,0 +1,17 @@
+{
+  "source_dir": "data",
+  "target_count_for_weak_categories": 220,
+  "added_examples": {
+    "false dichotomy": 171,
+    "manufactured consensus": 169,
+    "whataboutism": 207
+  },
+  "final_train_distribution": {
+    "cherry-picking": 201,
+    "manufactured consensus": 220,
+    "false dichotomy": 220,
+    "whataboutism": 220,
+    "loaded language": 208
+  },
+  "note": "Synthetic examples are added only to the training split. Validation and test are copied unchanged."
+}

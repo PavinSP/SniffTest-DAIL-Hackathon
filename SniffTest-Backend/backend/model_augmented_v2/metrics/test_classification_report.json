@@ -1,0 +1,45 @@
+{
+  "loaded language": {
+    "precision": 0.5833333333333334,
+    "recall": 0.8076923076923077,
+    "f1-score": 0.6774193548387096,
+    "support": 26.0
+  },
+  "false dichotomy": {
+    "precision": 0.5,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.25,
+    "support": 6.0
+  },
+  "manufactured consensus": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 6.0
+  },
+  "cherry-picking": {
+    "precision": 0.7,
+    "recall": 0.56,
+    "f1-score": 0.6222222222222222,
+    "support": 25.0
+  },
+  "whataboutism": {
+    "precision": 0.9090909090909091,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8695652173913043,
+    "support": 12.0
+  },
+  "accuracy": 0.6533333333333333,
+  "macro avg": {
+    "precision": 0.6384848484848484,
+    "recall": 0.5735384615384616,
+    "f1-score": 0.5838413588904472,
+    "support": 75.0
+  },
+  "weighted avg": {
+    "precision": 0.661010101010101,
+    "recall": 0.6533333333333333,
+    "f1-score": 0.6413765518674355,
+    "support": 75.0
+  }
+}

@@ -1,0 +1,302 @@
+[
+    {
+        "original_label": "false",
+        "statement": "Wisconsin is on pace to double the number of layoffs this year.",
+        "category": "Other/Unclear",
+        "explanation": "The statement is a factual claim about layoffs in Wisconsin and does not clearly fit into any of the specified logical fallacy categories."
+    },
+    {
+        "original_label": "false",
+        "statement": "Says John McCain has done nothing to help the vets.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'done nothing' which is an emotionally charged and absolute phrase to criticize John McCain's actions."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "When asked by a reporter whether hes at the center of a criminal scheme to violate campaign laws, Gov. Scott Walker nodded yes.",
+        "category": "Other/Unclear",
+        "explanation": "The statement is a claim about a specific event and Gov. Scott Walker's response, but without more context, it's unclear if it represents a logical fallacy."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Says Vice President Joe Biden \"admits that the American people are being scammed\" with the economic stimulus package.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively quotes Vice President Joe Biden, potentially taking his words out of context to misrepresent his stance on the economic stimulus package."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "We know that more than half of Hillary Clintons meetings while she was secretary of state were given to major contributors to the Clinton Foundation.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents data about Hillary Clinton's meetings, implying a quid pro quo without considering the full context or other possible explanations."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "We know there are more Democrats in Georgia than Republicans. We know that for a fact.",
+        "category": "Manufactured Consensus",
+        "explanation": "The statement presents a claim as a fact, implying a consensus or certainty about the number of Democrats versus Republicans in Georgia, without providing evidence."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "PolitiFact Texas says Congressman Edwards attacks on Bill Flores are false.",
+        "category": "Other/Unclear",
+        "explanation": "The statement is a claim about PolitiFact Texas's assessment of Congressman Edwards' attacks, which is more of a statement of fact about an evaluation rather than a logical fallacy."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Denali is the Kenyan word for black power.",
+        "category": "Other/Unclear",
+        "explanation": "The statement is a false claim about the origin of the word 'Denali', but it doesn't fit neatly into the provided categories as it seems more like a factual error than a logical fallacy."
+    },
+    {
+        "original_label": "false",
+        "statement": "Says 57 percent of federal spending goes to the military and just 1 percent goes to food and agriculture, including food stamps.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents data about federal spending, potentially misleading by not providing a complete picture of the budget allocation."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Unfortunately we have documented instances where people defecated in the (Statehouse) building.",
+        "category": "Other/Unclear",
+        "explanation": "The statement is a claim about an incident, but without more context, it's unclear if it's being used to support a broader argument that might fit into one of the logical fallacy categories."
+    },
+    {
+        "original_label": "false",
+        "statement": "Ronald Reagan faced an even worse recession than the current one.",
+        "category": "Cherry-picking",
+        "explanation": "This statement selectively compares past and present recessions to make a misleading point about their severity."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "The number of illegal immigrants could be 3 million. It could be 30 million.",
+        "category": "Other/Unclear",
+        "explanation": "This statement provides a broad and vague range of numbers without clear context or intent to deceive, making its categorization unclear."
+    },
+    {
+        "original_label": "false",
+        "statement": "Says Charlie Crist is embroiled in a fraud case for steering taxpayer money to a de facto Ponzi scheme.",
+        "category": "Loaded Language",
+        "explanation": "The use of the term 'de facto Ponzi scheme' is emotive language intended to create a negative impression without providing a balanced view."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "I was gone when there was a red line against Syria.",
+        "category": "Other/Unclear",
+        "explanation": "This statement seems to be a claim of absence or non-involvement rather than a clear attempt to deceive through a logical fallacy."
+    },
+    {
+        "original_label": "false",
+        "statement": "Its been since 1888 that a Senate of a different party than the president in the White House confirmed a Supreme Court nominee.",
+        "category": "Cherry-picking",
+        "explanation": "This statement selectively highlights a historical fact to imply a current political strategy or norm without considering other relevant historical contexts."
+    },
+    {
+        "original_label": "false",
+        "statement": "Under Rosemary Lehmberg, the Travis County D.A.s office convened the grand jury that indicted Rick Perry.",
+        "category": "Other/Unclear",
+        "explanation": "This statement appears to be a factual claim about an event rather than an attempt to deceive through a logical fallacy."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Because of the federal health care law, 300,000 health plans canceled in Florida.",
+        "category": "Cherry-picking",
+        "explanation": "This statement focuses on a specific consequence of the federal health care law, potentially ignoring other effects or the broader context."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Pre-existing conditions are covered under my (health care) plan.",
+        "category": "Other/Unclear",
+        "explanation": "Without more context, it's unclear if this statement is misleading or if it represents a genuine aspect of the speaker's health care plan."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Says he won the second debate with Hillary Clinton in a landslide in every poll.",
+        "category": "Manufactured Consensus",
+        "explanation": "The claim of winning a debate 'in every poll' may exaggerate or misrepresent the actual outcomes or opinions of various polls."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Says bag litter increased after San Francisco banned single-use shopping bags.",
+        "category": "Cherry-picking",
+        "explanation": "This statement selects a specific outcome (increase in bag litter) after a policy change, potentially ignoring other effects or benefits of the ban."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Says as a result of the national health care reform, the Congressional Budget Office says we save $250 million over the first 10 years. Over the next 10 years, we save $1.2 trillion in savings in terms of health care.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents savings from the national health care reform without providing a comprehensive view of its overall impact."
+    },
+    {
+        "original_label": "false",
+        "statement": "A proposed tax to fund transportation projects would spend $90,000 to take a single vehicle off the road during the morning and afternoon commute.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'spend $90,000 to take a single vehicle off the road' to create a negative impression of the proposed tax."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "A salesclerk at Hobby Lobby who needs contraception is not going to get that service through her employers health care plan because her employer doesnt think she should be using contraception.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses emotive language to frame the employer's decision not to cover contraception as a personal judgment, rather than a policy choice."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Hillary Clinton said gun confiscation would be worth considering.",
+        "category": "Other/Unclear",
+        "explanation": "Without more context, it's unclear whether Hillary Clinton's statement is being misrepresented or taken out of context, making it difficult to categorize as a specific logical fallacy."
+    },
+    {
+        "original_label": "false",
+        "statement": "When undocumented children are picked up at the border and told to appear later in court ... 90 percent do not then show up.",
+        "category": "Cherry-picking",
+        "explanation": "The statement presents a selective statistic about undocumented children not showing up to court, without providing a broader context or explanation for this phenomenon."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "ACORN will be a paid partner with the Census Bureau and they will be in charge of going door-to-door and collecting data from the American public.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'paid partner' and 'in charge of going door-to-door' to create a negative and intimidating image of ACORN's role with the Census Bureau."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Sixty percent of the Hispanics support the Arizona immigration law",
+        "category": "Manufactured Consensus",
+        "explanation": "The statement claims that sixty percent of Hispanics support the Arizona immigration law, which may be an attempt to create the appearance of broader support than actually exists."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "If the sequester hits, federal prosecutors will have to let criminals go.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'let criminals go' to create a dramatic and frightening image of the consequences of the sequester."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Says Dick Cheney de-Baathisized the Iraqi government and created ISIS.",
+        "category": "Other/Unclear",
+        "explanation": "The statement appears to be a factual claim about Dick Cheney's actions, but without more context, it's unclear whether this is a logical fallacy or a genuine historical assertion."
+    },
+    {
+        "original_label": "false",
+        "statement": "I did not play any role in bringing the company to RI as did others in government. I was tasked with handling the legislation affecting the company by my superiors.",
+        "category": "False Dichotomy",
+        "explanation": "The statement implies that the speaker either played a role in bringing the company to RI or had no involvement, when in fact they may have had a more nuanced or indirect role."
+    },
+    {
+        "original_label": "false",
+        "statement": "The tax cut deal is giving $700 billion to millionaires and billionaires.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses emotionally charged language like 'giving $700 billion to millionaires and billionaires' to create a negative impression."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Any state tax law has to start in the House and the renewal of the state hospital bed tax this year started in the Senate, which is unconstitutional.",
+        "category": "Other/Unclear",
+        "explanation": "The statement appears to be a claim about a specific legal or procedural issue, but without more context, it's unclear what logical fallacy it represents."
+    },
+    {
+        "original_label": "false",
+        "statement": "A strong bipartisan majority in the House of Representatives voted to defund Obamacare.",
+        "category": "Manufactured Consensus",
+        "explanation": "The statement implies that a 'strong bipartisan majority' is equivalent to universal or near-universal support, which may not be the case."
+    },
+    {
+        "original_label": "false",
+        "statement": "What the facts say is ...the best scenario for kids is a loving mom and dad.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'loving mom and dad' to create an emotional appeal and imply that other family structures are less desirable."
+    },
+    {
+        "original_label": "false",
+        "statement": "Says Mark Neumann = Nancy Pelosi",
+        "category": "False Dichotomy",
+        "explanation": "The statement implies that Mark Neumann and Nancy Pelosi are equivalent or interchangeable, which is a false comparison."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Says delegates cant legally change the Republican National Convention rules to prevent Donald Trumps nomination.",
+        "category": "Other/Unclear",
+        "explanation": "The statement appears to be a claim about the legality of a specific action, but without more context, it's unclear what logical fallacy it represents."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Rebuilding three high schools will benefit 40 percent of Portland Public School students.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents a statistic, '40 percent of Portland Public School students', to create a favorable impression without providing a complete picture."
+    },
+    {
+        "original_label": "false",
+        "statement": "On banning earmarks.",
+        "category": "Other/Unclear",
+        "explanation": "The statement is too brief and lacks context to determine what logical fallacy it represents."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "The decision for the United States to buy heavy water from Iran will directly subsidize Irans nuclear program.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'directly subsidize Iran's nuclear program' to create a negative and frightening impression."
+    },
+    {
+        "original_label": "false",
+        "statement": "A judges order means theres a Constitution exemption zone if you live within 100 miles of the United States border.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the phrase 'Constitution exemption zone' to create a sense of alarm and imply that the Constitution is being violated."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Mitch McConnell opposed \"legislation to create and protect Kentucky jobs . . . help for the unemployed. . . health care for Kentucky's children,\" and \"fair pay for women.\"",
+        "category": "Loaded Language",
+        "explanation": "The statement uses emotionally charged language like 'opposed legislation to create and protect Kentucky jobs' to create a negative impression of Mitch McConnell."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Taxpayers subsidize 80 percent of each MARTA trip",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents a statistic about MARTA trips being subsidized by taxpayers without providing context or a complete picture of the situation."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "President Obama, Sen. Harry Reid and Rep. Nancy Pelosi passed a $1.2 trillion stimulus bill.",
+        "category": "Other/Unclear",
+        "explanation": "The statement simply reports a fact about the stimulus bill without any apparent deception or fallacy, but lacks context about its impact or relevance."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Says people in Africa literally walk two and three hundred miles in order to vote.",
+        "category": "Other/Unclear",
+        "explanation": "The statement makes a claim about people in Africa walking long distances to vote, but without more context, it's unclear if this is an exaggeration or a legitimate observation."
+    },
+    {
+        "original_label": "false",
+        "statement": "Half of children struck by cars near schools are hit by parents driving children to school.",
+        "category": "Cherry-picking",
+        "explanation": "The statement highlights a specific statistic about children being hit by cars near schools, but doesn't provide a broader context or comparison to other causes of accidents."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Citizens Property Insurance has over $500 billion worth of risk, with less than $10 billion worth of surplus.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents a comparison between Citizens Property Insurance's risk and surplus, potentially creating a misleading impression of the company's financial situation."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "Tom Leppert pledged to make Dallas a sanctuary city for illegal immigrants.",
+        "category": "Loaded Language",
+        "explanation": "The statement uses the term 'sanctuary city for illegal immigrants', which is a loaded and potentially misleading phrase, to create a negative impression of Tom Leppert's pledge."
+    },
+    {
+        "original_label": "barely-true",
+        "statement": "When Atlanta Police Chief George Turner was interim head of the department, overall crime fell 14 percent and violent crime dropped 22.7 percent.",
+        "category": "Cherry-picking",
+        "explanation": "The statement selectively presents statistics about crime rates during George Turner's tenure, without providing a broader context or comparison to other time periods or factors."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "Says Donald Trump said of women, And you can tell them to go f--- themselves.",
+        "category": "Loaded Language",
+        "explanation": "The statement quotes Donald Trump using profanity, which is emotionally charged language, to create a negative impression of his attitude towards women."
+    },
+    {
+        "original_label": "pants-fire",
+        "statement": "The Taliban has been there for years and years, I mean, hundreds of thousands of years.",
+        "category": "Other/Unclear",
+        "explanation": "The statement contains a clear factual error about the Taliban's existence, but it's unclear if this is a deliberate deception or a genuine mistake."
+    }
+]

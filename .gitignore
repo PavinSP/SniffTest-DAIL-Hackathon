@@ -1,0 +1,61 @@
+# Environment
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (optional - uncomment if needed)
+# *.tsv
+# *.csv
+
+# Model artifacts
+# The trained DistilBERT weights are kept locally for running the demo, but
+# regular GitHub rejects 255 MB model files. Track them with Git LFS if your
+# course repo requires the checkpoint, otherwise regenerate from the training
+# command in README.md.
+# regular GitHub rejects 255 MB model files. Track them with Git LFS if you
+# want to store the model artifacts remotely, otherwise regenerate from the
+# training command in README.md.
+backend/base_model/
+backend/**/checkpoints/
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+training_args.bin
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local frontend config (keep template, ignore local overrides)
+frontend/config.local.js

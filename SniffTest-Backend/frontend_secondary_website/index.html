@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SniffTest</title>
+    <meta
+      name="description"
+      content="SniffTest is a level-based game for learning how to detect misleading claims and manipulation tactics with AI feedback."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <div>
+            <p class="eyebrow">Truth Trainer</p>
+            <h1>SniffTest</h1>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#/" data-route-link>Play</a>
+          <a href="#/progress" data-route-link>Progress</a>
+          <a href="#/about" data-route-link>About</a>
+        </nav>
+
+        <section class="rail-panel">
+          <p class="eyebrow">Core Categories</p>
+          <ul class="mini-list">
+            <li>Loaded language</li>
+            <li>False dichotomy</li>
+            <li>Manufactured consensus</li>
+            <li>Cherry-picking</li>
+            <li>Whataboutism</li>
+          </ul>
+        </section>
+
+        <section class="rail-panel">
+          <p class="eyebrow">Backend Status</p>
+          <div id="status-pills" class="status-stack"></div>
+        </section>
+      </aside>
+
+      <div class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Interactive Learning App</p>
+            <p class="topbar-title">Teach humans to catch manipulation, not just label it.</p>
+          </div>
+          <button class="ghost-button" id="jump-settings" type="button">API Settings</button>
+        </header>
+
+        <main id="app" class="view" aria-live="polite"></main>
+      </div>
+    </div>
+
+    <script src="./config.local.js"></script>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+window.SNIFFTEST_CONFIG = window.SNIFFTEST_CONFIG || {};
